@@ -1,0 +1,237 @@
+/* [Font] Epilogue (400-700) */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+/* ===== GLOBAL =============== */
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --red-1: #BA181B;
+    --red-2: #E5383B;
+    --black-1: #0B090A;
+    --black-2: #161A1D;
+    --white-1: #FFFFFF;
+    --white-2: #F5F3F4;
+}
+
+body {
+    color: var(--black-1);
+    font-size: 1.6rem;
+    font-family: "Epilogue", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 128rem;
+}
+
+.btn {
+    padding: 2rem 4rem;
+    color: var(--white-1);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.overtitle {
+    color: var(--red-2);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 4.4rem;
+    line-height: 5.6rem;
+    font-weight: 700;
+}
+
+
+
+/* ===== HEADER =============== */
+#header-container {
+    background-color: var(--black-1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 7.2rem;
+    color: var(--white-1);
+}
+
+.header .btn {
+    padding: 1.2rem 2.4rem;
+    border: 0.2rem solid var(--white-1);
+    background-color: transparent;
+}
+
+.header .btn:hover {
+    color: #D9D9D9;
+    border-color: #D9D9D9;
+}
+
+
+
+/* ===== [SECTION] HERO =============== */
+#hero-container {
+    padding-inline: 7.2rem;
+    color: var(--white-1);
+    background-color: var(--black-1);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+}
+
+.hero .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--red-1);
+}
+
+.hero .btn:hover {
+    background-color: #941B1D;
+}
+
+.hero .text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    padding-block: 9.6rem;
+} 
+
+.hero .img {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.hero .text h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 6.4rem;
+}
+
+.hero .text p {
+    max-width: 54.9rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.hero .img img {
+    max-width: 100%;
+}
+
+
+
+/* ===== [SECTION] SERVICES =============== */
+#services-container {
+    padding: 9.6rem 7.2rem;
+}
+
+.services .list {
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 4.8rem;
+}
+
+.services .card {
+    background-color: var(--white-2);
+    border: .2rem solid #D3D3D3;
+}
+
+.services .card img {
+    width: 100%;
+}
+
+.services .card .text {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    padding: 3.2rem;
+}
+
+.services .card .text h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+}
+
+.services .card .text p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+
+
+/* ===== [SECTION] LOCATION =============== */
+#location-container {
+    background-color: var(--white-2);
+}
+
+.location {
+    padding: 9.6rem 7.2rem 4.8rem;
+}
+
+.location address {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+#location-container .map {
+    width: 100%;
+    height: 40rem;
+}
+
+
+
+/* ===== FOOTER =============== */
+#footer-container {
+    padding: 4.8rem 7.2rem;
+    background-color: var(--black-2);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-1);
+}
+
+.footer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* .footer .text div {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+} */
+
+.footer .text span {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.footer .social-media {
+    display: flex;
+    gap: 1.33rem;
+}
+
+.social-media a {
+    display: flex;
+}
+
+.footer .social-media svg path {
+    fill: var(--white-1);
+}
